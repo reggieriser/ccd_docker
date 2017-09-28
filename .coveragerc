@@ -1,0 +1,5 @@
+[run]
+include = ccd_docker/*
+omit = *migrations*, *tests*
+plugins =
+    django_coverage_plugin
